@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//compile and run executable followed by the string you'd like to encode
 void rle_encode(const char *s) {
     int i = 0;
     while (s[i] != '\0') {
